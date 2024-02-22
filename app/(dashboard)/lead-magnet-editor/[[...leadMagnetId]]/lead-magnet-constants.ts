@@ -1,0 +1,25 @@
+import { LeadMagnet } from "@prisma/client";
+
+export const DEFAULT_LEAD_MAGNET: LeadMagnet = {
+  name: "New Lead Magnet",
+  status: "draft",
+  draftBody: "",
+  draftTitle: "",
+  draftSubtitle: "",
+  draftPrompt: "",
+  publishedBody: "",
+  publishedTitle: "",
+  publishedSubtitle: "",
+  publishedPrompt: "",
+  draftFirstQuestion: "",
+  draftEmailCapture: "",
+  publishedFristQuestion: "",
+  publishedEmailCapture: "",
+  createdAt: new Date(),
+  updatedAt: new Date(),
+  publishedAt: null,
+  slug: null,
+  pageViews: 0,
+  id: "",
+  userId: "",
+};
